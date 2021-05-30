@@ -7,7 +7,7 @@ import { uniqueFiltered } from '../../helpers/sortingArray';
 
 const CompareInputs = ({ initialValues }) => {
 
-	if (initialValues.priceUpTo < initialValues.priceFrom) {
+	if ((initialValues.priceUpTo && initialValues.priceFrom) && (initialValues.priceUpTo < initialValues.priceFrom)) {
 		return (<span style={{ color: 'red' }}>Alarm! Сумма ОТ должна быть меньше суммы ДО!</span>)
 	}
 	return null
