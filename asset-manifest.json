@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/gridnine-test/static/css/main.97df3231.chunk.css",
+    "main.js": "/gridnine-test/static/js/main.f811075a.chunk.js",
+    "main.js.map": "/gridnine-test/static/js/main.f811075a.chunk.js.map",
+    "runtime-main.js": "/gridnine-test/static/js/runtime-main.8a604593.js",
+    "runtime-main.js.map": "/gridnine-test/static/js/runtime-main.8a604593.js.map",
+    "static/css/2.c02757eb.chunk.css": "/gridnine-test/static/css/2.c02757eb.chunk.css",
+    "static/js/2.59938c23.chunk.js": "/gridnine-test/static/js/2.59938c23.chunk.js",
+    "static/js/2.59938c23.chunk.js.map": "/gridnine-test/static/js/2.59938c23.chunk.js.map",
+    "static/js/3.4f11a32f.chunk.js": "/gridnine-test/static/js/3.4f11a32f.chunk.js",
+    "static/js/3.4f11a32f.chunk.js.map": "/gridnine-test/static/js/3.4f11a32f.chunk.js.map",
+    "index.html": "/gridnine-test/index.html",
+    "static/css/2.c02757eb.chunk.css.map": "/gridnine-test/static/css/2.c02757eb.chunk.css.map",
+    "static/css/main.97df3231.chunk.css.map": "/gridnine-test/static/css/main.97df3231.chunk.css.map",
+    "static/js/2.59938c23.chunk.js.LICENSE.txt": "/gridnine-test/static/js/2.59938c23.chunk.js.LICENSE.txt",
+    "static/media/preloader.b5dc8291.gif": "/gridnine-test/static/media/preloader.b5dc8291.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a604593.js",
+    "static/css/2.c02757eb.chunk.css",
+    "static/js/2.59938c23.chunk.js",
+    "static/css/main.97df3231.chunk.css",
+    "static/js/main.f811075a.chunk.js"
+  ]
+}
