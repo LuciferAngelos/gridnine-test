@@ -1,3 +1,7 @@
+html{
+  font-size: 10px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +15,160 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.preloader{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainApp{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.mainRow{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Sidebar start */
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+}
+
+/* Sidebar end */
+
+/* Main start */
+
+.mainContent{
+  width: 100%;
+  max-width: 920px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+}
+
+/* Card start */
+.cardRow > .ant-col{
+  margin: 10px;
+}
+.cardHeaderDirection{
+  text-align: right;
+}
+.cardHeaderDirection h3{
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  color: #fff;
+}
+.cardHeaderDirection p{
+  font-size: .8rem;
+  line-height: .1rem;
+  color: #fff;
+}
+.ant-col .styledCol{
+  max-width: 98%;
+  padding: 1rem;
+}
+.ant-col .styledColHigherPadding{
+  padding: 1rem 1.6rem;
+}
+.ant-divider.customDivider{
+  min-width: auto;
+  max-width: 88%;
+}
+
+.ant-divider.customDivider,
+.ant-divider-horizontal.ant-divider-with-text.customDivider{
+  margin: 0 auto;
+  border-top-color: #a2a2a2;
+}
+.customDivider span{
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  font-weight: 400;
+  color: #ff8e1d;
+}
+.spanAbbreviation,
+.spanDate{
+  color: #0087d3;
+}
+.spanAbbreviation{
+  font-size: 1.6rem;
+}
+.spanDate{
+  font-size: 1.2rem;
+}
+
+.ant-btn.chooseBtn{
+  background-color: #ffb168;
+  color: #fff;
+  border-color: #ffb168;
+
+}
+.ant-btn.chooseBtn:hover{
+  background-color: #ffa858;
+  border-color: #ffa858;
+}
+.ant-btn.chooseBtn:focus,
+.ant-btn.chooseBtn:active{
+  background-color: #fb9538;
+  border-color: #fb9538;
+
+}
+.loadMoreBtn{
+  width: 100%;
+  max-width: 40%;
+  padding: 0 auto;
+  margin: 1rem auto 2rem;
+}
+/* #fba24e */
+/* Card end */
+
+/* Main end */
+
+/* Aside start */
+.ant-col form{
+  width: 100%;
+  padding-left: 1%;
+  padding-top: .5rem;
+}
+.ant-col form div{
+  width: 100%;
+}
+.ant-col form div:nth-child(2n){
+margin-bottom: 2rem;
+}
+.ant-col form div:nth-child(2){
+margin-bottom: 4rem;
+}
+.ant-col form div label{
+  width: 100%;
+  display: inline-block;
+}
+.aside-block-header{
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+#priceFrom,
+#priceUpTo{
+  line-height: 2rem;
+  padding: 0 .5rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.limitedDiv{
+  height: 30%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+/* Aside end */
